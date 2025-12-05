@@ -1,32 +1,36 @@
 from sqlalchemy.orm import Session
 from models import Jugador, Estadistica, Partido
-from schemas
+from schemas import JugadorCreate, JugadorUpdate
 
- @staticmethod
-    def crear_jugador(db: Session, nombre_completo: str, numero_camiseta: int, nacionalidad: str, 
-                                    nacionalidad: str, fecha_nacimiento: str, activo: bool, altura: int, 
-                                    peso: int, pie_dominante: str, posicion: str, valor: int, año_ingreso: int, 
-                                    estado: str, jugador_id: Optional[int] = None):
-        jugadores = Jugador(
-            nombre_completo=nombre_completo,
-            numero_camiseta=numero_camiseta,
-            nacionalidad=nacionalidad,
-            fecha_nacimiento=fecha_nacimiento,
-            activo=activo,
-            altura=altura,
-            peso=peso,
-            pie_dominante=pie_dominante,
-            posicion=posicion,
-            valor=valor,
-            año_ingreso=año_ingreso,
-            estado=estado
-        )
-        db.add(jugadores)
-        db.commit()
-        db.refresh(jugadores)
-        return jugadores
+
+    def crear_jugador(db: Session, jugadores: JugadorCreate, jugador_id: Optional[int] = None):
+            
+        jugadores_bd = bd.query(Jugador).filter(Jugador.numero_camiseta == jugador.numero_camiseta).first()
+        if jugadores_bd:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Camiseta ya registrada"
+            )
+            
+            jugadores_bd = Jugador(
+                nombre_completo=jugadores.nombre_completo,
+                numero_camiseta=jugadores.numero_camiseta,
+                nacionalidad=jugadores.nacionalidad,
+                fecha_nacimiento=jugadores.fecha_nacimiento,
+                activo=jugadores.activo,
+                altura=jugadores.altura,
+                peso=jugadores.peso,
+                pie_dominante=jugadores.pie_dominante,
+                posicion=jugadores.posicion,
+                valor=jugadores.valor,
+                año_ingreso=jugadores.año_ingreso,
+                estado=jugadores.estado
+            )
+            db.add(jugadores_bd)
+            db.commit()
+            db.refresh(jugadores_bd)
+            return jugadores_bd
     
-    @staticmethod
     def obtener_todos(db: Session, jugador_id: Optional[int] = None, solo_activos: bool = True):
         query = db.query(Jugador)
         
@@ -38,67 +42,35 @@ from schemas
         
         return query.order_by(Jugador.año_ingreso.desc()).all()
     
-    @staticmethod
-    def buscar_por_texto(db: Session, texto: str, jugador_id: Optional[int] = None, solo_activos: bool = True):
-        query = db.query(Jugador).filter(
-            Jugador.nombre_completo.ilike(f"%{texto}%")
-        )
-        
-        if jugador_id is not None:
-            query = query.filter(Jugador.jugador_id == jugador_id)
-        
-        if solo_activos:
-            query = query.filter(Jugador.activo == True)
-        
-        return query.order_by(Jugador.año_ingreso.desc()).all()
+    def buscar_por_texto(db: Session, texto: str, jugador_id: Optional[int] = None):
+        query = db.query(Jugador).filter(Jugador.nombre_completo == texto).first()
+        if not query:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail="Jugador no encontrado"
+            )
+        return query
     
-    @staticmethod
     def obtener_por_id(db: Session, registro_id:int, jugador_id: Optional[int] = None):
-        query = db.query(Jugador).filter(Jugador.id == jugador_id)
+        query = db.query(Jugador).filter(Jugador.id == jugador_id).first()
         
         if jugador_id is not None:
             query = query.filter(Jugador.jugador_id == jugador_id)
         
-        return query.first()
+        return query
     
-    @staticmethod
-    def actualizar_registro(db: Session, registro_id: int, nombre_completo: str = None, numero_camiseta: int = None,
-                                        nacionalidad: str = None, fecha_nacimiento: str = None, activo: bool = None, altura: int = None,
-                                        peso: int = None, pie_dominante: str = None, posicion: str = None, valor: int = None, año_ingreso: int = None, estado: str = None;
-                                        usuario_id: Optional[int] = None):
+    def actualizar_registro(db: Session, registro_id: int, jugador_actualizar:JugadorUpdate, usuario_id: Optional[int] = None):
         jugadores = Jugador.obtener_por_id(db, registro_id, jugador_id)
-        if jugadores:
-            if nombre_completo is not None:
-                jugadores.nombre_completo = nombre_completo
-            if numero_camiseta is not None:
-                jugadores.numero_camiseta = numero_camiseta
-            if nacionalidad is not None:
-                jugadores.nacionalidad = nacionalidad
-            if fecha_nacimiento is not None:
-                jugadores.fecha_nacimiento = fecha_nacimiento
-            if activo is not None:
-                jugadores.activo = activo
-            if altura is not None:
-                jugadores.altura = altura
-            if peso is not None:
-                jugadores.peso = peso
-            if pie_dominante is not None:
-                jugadores.pie_dominante = pie_dominante
-            if posicion is not None:
-                jugadores.posicion = posicion
-            if valor is not None:
-                jugadores.valor = valor
-            if año_ingreso is not None:
-                jugadores.año_ingreso = año_ingreso
-            if estado is not None:
-                jugadores.estado = estado
-
-            db.commit()
-            db.refresh(jugadores)
+        
+        datos_actualizar = jugador_actualizar.dict(exclude_unset=True)
+        for campo, valor in datos_actualizar.items():
+            setattr(jugadores, campo, valor)
+        
+        bd.commit()
+        bd.refresh(jugadores)
         return jugadores
 
-    
-    @staticmethod
+
     def eliminar_registro(db: Session, registro_id: int, jugador_id: Optional[int] = None):
         jugadores = Jugador.obtener_por_id(db, registro_id, jugador_id)
         if jugadores:
