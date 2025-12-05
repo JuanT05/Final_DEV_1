@@ -14,3 +14,5 @@
 [SB]: Tocaria modificaar el crun con respecto a los nombres de los modesl
 
 [JT]:mano pues yo me estaba basando en el proyecto y tenia eso jajajaj, pero pues si no te sirven borralos, nos falta el main.
+
+[SB]: coño, ya tengo sueño mam xd, me van a poner 4 faltas en la clase de ingle
