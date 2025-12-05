@@ -8,11 +8,6 @@ from app.schemas import (
 )
 from app.database import get_db
 
-
-# ==============================
-#       ROUTER ESTADISTICAS
-# ==============================
-
 router_estadisticas = APIRouter(prefix="/estadisticas", tags=["Estadísticas"])
 
 @router_estadisticas.post("/", response_model=EstadisticaRead)
