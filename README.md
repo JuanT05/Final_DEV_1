@@ -8,3 +8,6 @@
 [SB]: mano revisa el models, ya lo termine
 
 [JT]: mano no entiendo lo del html, primero hagamos que ya sirva todo en el uvicorn y ya agregamos la interfaz, ya funciona en el uvicorn o que falta?
+
+[SB]: Mano no tengo las mas perra idea de que hiciste en schemas y crud xd
+
