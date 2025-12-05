@@ -16,3 +16,5 @@
 
 [JT]: Se supone que habia hecho un commit en models.py pero no se subio, y creo que lo que hiciste si va en models
 
+[SB]: Mano ve haciendo una interfas en html, yo voy a estar haciendo los models, de paso, has esto mira entre en este link "https://github.dev/JuanT05/Final_DEV_1" si a mi tampoco me dejo hacer comit pero de esta forma el visual se abre de foma online dentro del propio github namas te pide que elijas la cuenta aparece en la parte de arriba y tu pones tu cuenta y ya hay te deja hacer los comits normal, lo malo es que pos no deja ejecutar creo
+
