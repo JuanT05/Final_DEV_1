@@ -17,3 +17,5 @@
 [SB]: Mano revisa el crud, ahora si esta incluyecdo al squemas antes no, por eso se me hacia raro
 
 [SB]: Mano voy aintentar ejecutar esta cochina, aver que tanto se auto destrulle
+
+[SB]: Mentira toca hcer el main, xd, no hemos hecho el main mano
