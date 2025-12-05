@@ -1,2 +1,3 @@
 
 [SB]: mano responde rapido carajo xd
+[JT]: mano te dije que ni idea, que ya me quiero ir, ya tengo el venv en pycharm y clone el repo, toca empezar con los modelos jugador, estadisticas y partidos.
