@@ -20,3 +20,5 @@
 [JT]:Yo tambien mano ya estoy jodido, igual ya perdí porque no pude hacer el proyecto :v
 
 [SB]: eres un pendejo, hagamos esto lo mejor posible pa que le quede tipo 57 y habla con el profesor aver si le ayuda
+
+[JT]:El profe los dejó salir? aqui llego todo el mundo y entro sigmotoa y no dijo nada
