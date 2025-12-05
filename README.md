@@ -9,3 +9,4 @@
 [JT]:Listo pero has primero cualquier cosa y pegale un commit o un pull para comprobar que si se suba lo que hagamos
 
 [JT]:Pudiste hacer algun commit?
+[SB]: mano
