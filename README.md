@@ -6,3 +6,19 @@
 [SB]: gods mano, mira ya estoy terminando el models pa que funcione bien
 
 [SB]: mano revisa el models, ya lo termine
+
+[JT]: mano no entiendo lo del html, primero hagamos que ya sirva todo en el uvicorn y ya agregamos la interfaz, ya funciona en el uvicorn o que falta?
+
+[SB]: Mano no tengo las mas perra idea de que hiciste en schemas y crud xd
+
+[SB]: Tocaria modificaar el crun con respecto a los nombres de los modesl
+
+[JT]:mano pues yo me estaba basando en el proyecto y tenia eso jajajaj, pero pues si no te sirven borralos, nos falta el main.
+
+[SB]: coño, ya tengo sueño mam xd, me van a poner 4 faltas en la clase de ingle
+
+[JT]:Yo tambien mano ya estoy jodido, igual ya perdí porque no pude hacer el proyecto :v
+
+[SB]: eres un pendejo, hagamos esto lo mejor posible pa que le quede tipo 57 y habla con el profesor aver si le ayuda
+
+[JT]:El profe los dejó salir? aqui llego todo el mundo y entro sigmotoa y no dijo nada
