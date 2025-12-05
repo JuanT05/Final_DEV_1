@@ -19,3 +19,6 @@
 [SB]: Mano voy aintentar ejecutar esta cochina, aver que tanto se auto destrulle
 
 [SB]: Mentira toca hcer el main, xd, no hemos hecho el main mano
+
+
+[JT]:mano mano, yo lo estoy corriendo (o intentando) y pues almenos si abrio el swagger jajaja, estoy haciendo pruebas a ver si si guarda todo bien, si todo me funciona te hago commits con lo que agregué
