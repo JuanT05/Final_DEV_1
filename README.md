@@ -14,3 +14,5 @@
 
 [SB]: En primera has "enter" cuando escribas pa entender bien xd, se ven pegados los mensajes sin eso, en segunga no has podido hacer comit?, y de tercera tocaba hacerlo en models?
 
+[JT]: Se supone que habia hecho un commit en models.py pero no se subio, y creo que lo que hiciste si va en models
+
