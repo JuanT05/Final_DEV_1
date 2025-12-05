@@ -15,3 +15,5 @@
 [JT]:Pues mano es diferente al que yo hice hace tiempo en un proyecto pero ni idea, supongo que esta bien, yo estaba mirando mientras los routers revisalos
 
 [SB]: Mano revisa el crud, ahora si esta incluyecdo al squemas antes no, por eso se me hacia raro
+
+[SB]: Mano voy aintentar ejecutar esta cochina, aver que tanto se auto destrulle
