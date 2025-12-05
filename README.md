@@ -11,3 +11,4 @@
 
 [SB]: Mano no tengo las mas perra idea de que hiciste en schemas y crud xd
 
+[SB]: Tocaria modificaar el crun con respecto a los nombres de los modesl
