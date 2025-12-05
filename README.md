@@ -7,3 +7,5 @@
 [SB]: estan good, mano ya casi termino con el crud
 
 [JT]:escuchaste lo que yo acabo de escuchar? 
+
+[JT]:Sergio pasame tu nombre completo y codigo que hay que marcarlo en la hoja, tu pon el mio en la tuya, Juan Sebastian Tarazona Mariño-67001455
