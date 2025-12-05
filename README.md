@@ -6,3 +6,5 @@
 [SB]: gods mano, mira ya estoy terminando el models pa que funcione bien
 
 [SB]: mano revisa el models, ya lo termine
+
+[JT]: mano no entiendo lo del html, primero hagamos que ya sirva todo en el uvicorn y ya agregamos la interfaz, ya funciona en el uvicorn o que falta?
