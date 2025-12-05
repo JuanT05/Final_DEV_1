@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.models import Jugador
-from app.schemas import JugadorCreate, JugadorUpdate, JugadorRead
-from app.database import get_db
+from database import get_db
+from models import Jugador
+from schemas import JugadorCreate, JugadorUpdate, JugadorRead
 
 router = APIRouter(prefix="/jugadores", tags=["Jugadores"])
 

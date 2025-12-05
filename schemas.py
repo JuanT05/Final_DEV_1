@@ -18,7 +18,7 @@ class JugadorBase(BaseModel):
     pie_dominante: str
     posicion: str
     valor: int
-    año_ingreso: int
+    anio_ingreso: int
     estado: str
 
 
@@ -38,7 +38,7 @@ class JugadorUpdate(BaseModel):
     pie_dominante: Optional[str] = None
     posicion: Optional[str] = None
     valor: Optional[int] = None
-    año_ingreso: Optional[int] = None
+    anio_ingreso: Optional[int] = None
     estado: Optional[str] = None
 
 
