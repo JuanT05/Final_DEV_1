@@ -5,4 +5,4 @@
 [JT]:ahora que sigue :v
 [SB]: improvisar aver si algo termina funcionando xd 
 [JT]: Tu que vas a hacer primero??? Intenta hacer algo y subir un commit a ver si se actualiza
-
+[SB]: pos voy a ponerme a ahcer primero lo de los jugadores que tome la info y la guarde
