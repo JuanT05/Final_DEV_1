@@ -11,3 +11,6 @@
 [JT]:Sergio pasame tu nombre completo y codigo que hay que marcarlo en la hoja, tu pon el mio en la tuya, Juan Sebastian Tarazona Mariño-67001455
 
 [SB]: Sergio Alejandro Bonilla Tenjo - 67001538, mano revisa el crud, no se si este bien ando dundando de eso
+
+[JT]:Pues mano es diferente al que yo hice hace tiempo en un proyecto pero ni idea, supongo que esta bien, yo estaba mirando mientras los routers revisalos
+
