@@ -6,3 +6,4 @@
 
 [SB]: estan good, mano ya casi termino con el crud
 
+[JT]:escuchaste lo que yo acabo de escuchar? 
