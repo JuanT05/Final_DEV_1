@@ -16,3 +16,5 @@
 [JT]:mano pues yo me estaba basando en el proyecto y tenia eso jajajaj, pero pues si no te sirven borralos, nos falta el main.
 
 [SB]: coño, ya tengo sueño mam xd, me van a poner 4 faltas en la clase de ingle
+
+[JT]:Yo tambien mano ya estoy jodido, igual ya perdí porque no pude hacer el proyecto :v
