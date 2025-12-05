@@ -8,3 +8,5 @@
 
 [JT]:Literal que horror me estoy volviendo loco, lo que tu hiciste se llama utils.py? o cual es no se como funciona esto D:
 
+[SB]: Lo que hice es un archivo que se llama db.py revisalo mano
+
