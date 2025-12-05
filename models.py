@@ -29,6 +29,7 @@ class Jugador(Base):
     estado = Column(String(100), nullable=False)
 
     estadistica = relationship("Estadistica", back_populates="jugador")
+    partido = relationship("Partido", back_populates="jugador")
 
 
 class Estadistica():
@@ -57,7 +58,7 @@ class Partido():
     npenales_gol_rival = Column(Boolean, default=True)
     resultado_partido = Column(String(100), nullable=False)
 
-    partido = relationship("Jugador", back_populates="partido")
+    jugador = relationship("Jugador", back_populates="partido")
 
 
 Base.metadata.create_all(bind=engine)
