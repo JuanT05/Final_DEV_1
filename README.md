@@ -12,3 +12,5 @@
 [SB]: Mano no tengo las mas perra idea de que hiciste en schemas y crud xd
 
 [SB]: Tocaria modificaar el crun con respecto a los nombres de los modesl
+
+[JT]:mano pues yo me estaba basando en el proyecto y tenia eso jajajaj, pero pues si no te sirven borralos, nos falta el main.
