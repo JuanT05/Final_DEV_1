@@ -4,3 +4,5 @@
 [JT]: MANOO ya me dejo hacer commit solo me faltaba darle push :V, hice el crud y los schemas para jugadores, es una mierda esto porque estamos como haciendo cosas diferentes y tal vez cuando juntemos todo se reviente eso. Y lo de html voy a intentar
 
 [SB]: gods mano, mira ya estoy terminando el models pa que funcione bien
+
+[SB]: mano revisa el models, ya lo termine
