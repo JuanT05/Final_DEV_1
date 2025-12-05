@@ -101,3 +101,5 @@ def eliminar_estadistica(estadistica_id: int, db: Session = Depends(get_db)):
     db.commit()
     return {"mensaje": "Estadística eliminada"}
 
+
+#estan bien?

@@ -44,3 +44,6 @@ def eliminar_jugador(jugador_id: int, db: Session = Depends(get_db)):
     db.delete(jugador)
     db.commit()
     return {"mensaje": "Jugador eliminado"}
+
+#Estan bien?
+
